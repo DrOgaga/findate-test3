@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+@media screen and (max-width: 767px) {
+/* NAV BAR   */
+  .nav-bar {
+    /* background-color: blue; */
+    width: 100%;
+    height: 48px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+
+  .nav-bar .logo {
+    width: 59px;
+    height: 27px;
+    margin-left: 3%;
+  }
+  .nav-bar i {
+    font-size: 24px;
+    margin-right: 3%;
+    color: #6D64FF;
+  }
+  /* MENU BAR */
+  .menu-bar {
+    background-color: white;
+    width: 100%;
+    height: 236px;
+    position: fixed;
+    z-index: 3;
+    padding: 10px 10px;
+    left: -100%;
+    transition: .3s all ease-in-out;
+  }
+  .menu-bar.active {
+    left: 0;
+  }
+  .menu-bar ul {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 172px;
+    
+  }
+  .menu-bar a {
+    text-decoration: none;
+  }
+  .menu-bar li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    margin: 10px 10px;
+    list-style: none;
+
+  }
+  .menu-bar li:hover {
+    color: rgba(109, 100, 255, 1);
+  }
+  .menu-bar .btn {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .menu-bar button {
+    display: block;
+    width: 95%;
+    height: 42px;
+    background: #6D64FF;
+    border-radius: 21px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  /* UPPER BACKGROUND */
+
+  .upper-bg {
+    background-image: url(Images/background\ image.png);
+    width: 100%;
+    height: 579px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+  }
+  .upper-bg .upper {
+    background: linear-gradient(111.9deg, rgba(255, 102, 133, 0.9) 27.4%, rgba(123, 99, 255, 0.9) 102.41%);
+    width: 100%;
+    height: 100%;
+
+  }
+  /* upper bg lower */
+  .custom-shape-divider-bottom-1664977359 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: scaleX(-1);
+    
+}
+
+.custom-shape-divider-bottom-1664977359 svg {
+    position: relative;
+    display: block;
+    width: calc(159% + 1.3px);
+    height: 180px;
+   
+}
+
+.custom-shape-divider-bottom-1664977359 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.container .heading {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100px;
+  margin: 10px 10%;
+  
+}
+.download-stores {
+  /* background-color: darkgreen; */
+  width: 80%;
+  display: inline-flex;
+  margin: 10px 10%;
+  justify-content: space-between;
+  position: absolute;
+  top: 130px;
+
+}
+.download-stores .playstore {
+  background-color: rgba(1, 1, 1, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-stores .applestore {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-stores .logo {
+  width: 24px;
+  height: 24px;
+}
+.download-stores .text {
+  width: 71px;
+  height: 24px;
+}
+.chat-pic {
+  width: 70%;
+  height: 255px;
+  position: absolute;
+  top: 150px;
+  margin: 10px 10%;
+}
+/* MIDDLE CONTENT-FIRTS PART */
+.container .our-special {
+  width: 80%;
+  height: 35%;
+  margin: 5px 10%;
+}
+.container .chat-framemb {
+  width: 90%;
+  height: 837px;
+  margin: 5px 5%;
+}
+ 
+.container .find-love {
+  width: 100%;
+  height: 20%;
+  margin-top: 40px;
+  position: relative;
+  
+}
+.find-love img {
+  width: 100%;
+  height: 100%;
+}
+
+.find-love .fnd-lv {
+  background-color: rgba(248, 71, 122, 1);
+  border-radius: 36px;
+  border: none;
+  width: 45%;
+  height: 43px;
+  position: absolute;
+  top: 35%;
+  left: 27%;
+  color: white;
+  
+}
+
+.comes-with {
+  width: 90%;
+  height: 30%;
+  margin: 20px 5%;
+
+}
+/* LOWER SECTION */
+.before-footer {
+  /* background-color: aquamarine; */
+  width: 100%;
+  position: relative;
+}
+.before-footer img {
+  width: 80%;
+  height: 200vh;
+  margin: 1vh 10%;
+  position: relative;
+  /* top: 230px; */
+  /* margin-bottom: 40%; */
+  margin-bottom: 40vh;
+  
+
+}
+.before-footer .bottom {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(128.09deg, rgba(255, 102, 133, 0.7) 12.03%, rgba(109, 100, 255, 0.7) 82.23%);
+  position: absolute;
+  bottom: 0;
+  z-index: -1; 
+ 
+  display: flex;
+  flex-direction: column;
+  
+}
+.bottom .sub {
+  display: inline-flex;
+  position: relative;
+  width: 90%;
+  margin: 10px 5%;
+}
+.bottom input {
+  width: 100%;
+  height: 40px;
+  left: 16px;
+  top: 372px;
+  background: #FFFFFF;
+  border: 0.622826px solid #FF6685;
+  border-radius: 26.7815px;
+  padding-left: 20px;
+}
+.bottom input[type="text"] {
+  font-weight: 600;
+  font-size: 14.9478px;
+  line-height: 16px;
+  text-align: left;
+  color: #CCCCCC;
+}
+.bottom button {
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17.4391px 32px;
+width: 120px;
+height: 40px;
+background: #FF6685;
+border-radius: 50.4489px;
+border: none;
+
+font-weight: 600;
+font-size: 12.4565px;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.bottom .download-store {
+  width: 80%;
+  display: inline-flex;
+  margin: 10px 10%;
+  justify-content: space-between;
+  margin-top: 28vh;
+}
+
+.download-store .playstore {
+  background-color: rgba(1, 1, 1, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+
+}
+.download-store .applestore {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+}
+.download-store .logo {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.download-store .text {
+  width: 71px;
+  height: 24px;
+  margin: 0;
+}
+
+
+.bottom .get {
+  width: 80%;
+  height: 78px;
+  margin: 25px auto;
+}
+}
+
+
+
+ 
